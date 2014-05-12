@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.microlearning.teach.NewCourseActivity"
+    >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:orientation="horizontal"
+        ></LinearLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="添加标签"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/new_label"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="设置价格"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/new_label"
+            />
+        
+        <EditText 
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+	        android:layout_gravity="center_vertical"
+            android:numeric="decimal"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="元"
+            android:textSize="18sp"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="vertical"
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择以下一种方式展示该技能"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            />
+        
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:text="上传视频"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/av_upload"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:text="录制新视频"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/access_video"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:text="一对一视频互动"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/access_switch_video"
+        />
+    
+</LinearLayout>
+

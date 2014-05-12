@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:padding="8dp"
+    android:orientation="horizontal" >
+
+    <View 
+        android:id="@+id/sign_learn_c"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:background="@color/action_active_green"
+        android:visibility="gone"
+        />
+    
+    <LinearLayout 
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:background="@color/text_gray"
+            />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_black"
+                android:text="5分钟快速掌握日常妆容"
+                />
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="@color/text_gray"
+                android:textSize="10sp"
+                android:text="05:00"
+                />
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+            
+            <TextView 
+                android:layout_width="24dp"
+                android:layout_height="14dp"
+                android:gravity="center"
+                android:background="@color/icon_blue"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:text="视频"
+                />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:drawableLeft="@drawable/label"
+                android:textColor="@color/text_gray"
+                android:text="美妆技巧"
+                />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_gray"
+                android:text="发布者：李静"                
+                />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>
+<!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/layout/listview_learn_c.xml -->

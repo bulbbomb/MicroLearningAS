@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MicroLearning</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_publish">Publish</string>
+    <string name="tab_learn">学</string>
+    <string name="tab_teach">教</string>
+    <string name="tab_option">我</string>
+    <string name="title_activity_learn">LearnActivity</string>
+    <string name="title_activity_teach">TeachActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_learn_a">热门推荐</string>
+    <string name="tab_learn_b">达人推荐</string>
+    <string name="tab_learn_c">我学过的</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_personal_info">PersonalInfoActivity</string>
+    <string name="tab_course_type_a">视频</string>
+    <string name="tab_course_type_b">一对一</string>
+    <string name="title_activity_course_info">CourseInfoActivity</string>
+    <string name="title_activity_new_course">NewCourseActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+</resources>

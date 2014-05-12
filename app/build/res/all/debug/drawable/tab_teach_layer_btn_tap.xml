@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- <item android:drawable="@drawable/tab_bg_selected"/> -->
+    <item>
+        <bitmap android:src="@drawable/tab_teach" android:gravity="center" />
+    </item>
+</layer-list><!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/drawable/tab_teach_layer_btn_tap.xml -->

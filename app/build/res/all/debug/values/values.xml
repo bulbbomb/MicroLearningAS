@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment />
+
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="action_active_green">#56be6f</color>
+    <color name="action_inactive_gray">#676968</color>
+    <color name="bg_button_course_pay_blue">#51acff</color>
+    <color name="bg_personal_info_black">#566578</color>
+    <color name="container_course_info_gray">#9fa4a8</color>
+    <color name="dark_green">#119667</color>
+    <color name="icon_blue">#03adfa</color>
+    <color name="icon_orange">#feb532</color>
+    <color name="line_button_course_pay_blue">#3998ea</color>
+    <color name="tab_learn_bg_white">#f0f4f5</color>
+    <color name="tab_main_bg_gray">#f0f0f0</color>
+    <color name="text_black">#3f4346</color>
+    <color name="text_gray">#727272</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="action_forgot_password">Recover lost password</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_publish">Publish</string>
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">MicroLearning</string>
+    <string name="delete">Delete</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="login_progress_signing_in">Signing in…</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment />
+
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_clean_cache">清除所有缓存的图像和视频</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_header_about">关于</string>
+    <string name="pref_header_data_sync">数据 &amp; 存储</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">通知</string>
+    <string name="pref_ringtone_silent">无</string>
+    <string name="pref_title_about_us">关于我们</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_clean_cache">清除缓存</string>
+    <string name="pref_title_contact_us">意见反馈</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_log_out">退出登录</string>
+    <string name="pref_title_new_message_notifications">接收消息通知</string>
+    <string name="pref_title_only_watch_video_by_wifi">仅在Wi-Fi下播放视频</string>
+    <string name="pref_title_profile_setting">编辑个人信息</string>
+    <string name="pref_title_ringtone">通知提示音</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_vibrate">振动</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="tab_course_type_a">视频</string>
+    <string name="tab_course_type_b">一对一</string>
+    <string name="tab_learn">学</string>
+    <string name="tab_learn_a">热门推荐</string>
+    <string name="tab_learn_b">达人推荐</string>
+    <string name="tab_learn_c">我学过的</string>
+    <string name="tab_option">我</string>
+    <string name="tab_teach">教</string>
+    <string name="title_activity_course_info">CourseInfoActivity</string>
+    <string name="title_activity_learn">LearnActivity</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="title_activity_login">Sign in</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="title_activity_new_course">NewCourseActivity</string>
+    <string name="title_activity_personal_info">PersonalInfoActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment />
+
+    <string name="title_activity_settings">Settings</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="title_activity_teach">TeachActivity</string>
+    <!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+</resources>

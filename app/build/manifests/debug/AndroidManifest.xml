@@ -1,0 +1,32 @@
+<!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.microlearning">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.example.microlearning.base.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_personal_info" android:name="com.example.microlearning.learning.PersonalInfoActivity">
+        </activity>
+        <activity android:label="@string/title_activity_course_info" android:name="com.example.microlearning.learning.CourseActivity">
+        </activity>
+        <activity android:label="@string/title_activity_new_course" android:name="com.example.microlearning.teach.NewCourseActivity">
+        </activity>
+        <activity android:label="@string/title_activity_login" android:name="com.example.microlearning.option.LoginActivity" android:windowSoftInputMode="adjustResize|stateVisible">
+        </activity>
+        <activity android:label="@string/title_activity_settings" android:name="com.example.microlearning.option.SettingsActivity">
+        </activity>
+        <activity android:label="@string/title_activity_profile" android:name="com.example.microlearning.option.ProfileActivity">
+        </activity>
+    </application>
+
+</manifest>

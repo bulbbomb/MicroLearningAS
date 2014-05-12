@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+    -->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="only_watch_video_by_wifi"
+        android:title="@string/pref_title_only_watch_video_by_wifi" />
+
+    <!--
+         This preference simply launches an intent when selected. Use this UI sparingly, per
+         design guidelines.
+    -->
+    <Preference android:title="@string/pref_title_clean_cache"
+        android:summary="@string/pref_description_clean_cache" >
+        <!-- <intent android:action="android.settings.SYNC_SETTINGS" /> -->
+    </Preference>
+
+</PreferenceScreen>

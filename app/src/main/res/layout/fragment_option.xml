@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.microlearning.option.OptionFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:orientation="vertical"
+        android:background="@color/bg_personal_info_black"
+        android:gravity="center_horizontal"
+         >
+    
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="未登录"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        
+        <TextView 
+            android:id="@+id/textview_login_please"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="请先登录或注册"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            />
+        
+    </LinearLayout>
+
+    <ListView 
+        android:id="@+id/listview_option"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+    
+</LinearLayout>

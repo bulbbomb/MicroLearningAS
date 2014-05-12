@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Data & Sync -->
+    <string name="pref_header_data_sync">数据 &amp; 存储</string>
+    <string name="pref_title_only_watch_video_by_wifi">仅在Wi-Fi下播放视频</string>
+    <string name="pref_title_clean_cache">清除缓存</string>
+    <string name="pref_description_clean_cache">清除所有缓存的图像和视频</string>
+
+    <!-- Notifications -->
+    <string name="pref_header_notifications">通知</string>
+    <string name="pref_title_new_message_notifications">接收消息通知</string>
+    <string name="pref_title_ringtone">通知提示音</string>
+    <string name="pref_ringtone_silent">无</string>
+    <string name="pref_title_vibrate">振动</string>
+
+    <!-- About -->
+    <string name="pref_header_about">关于</string>
+    <string name="pref_title_about_us">关于我们</string>
+    <string name="pref_title_contact_us">意见反馈</string>
+    
+    <!-- Profile -->
+    <string name="pref_title_profile_setting">编辑个人信息</string>
+    <string name="pref_title_log_out">退出登录</string>
+    
+</resources>

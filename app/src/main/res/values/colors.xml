@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_active_green">#56be6f</color>
+    <color name="action_inactive_gray">#676968</color>
+    <color name="tab_learn_bg_white">#f0f4f5</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_green">#119667</color>
+    <color name="text_black">#3f4346</color>
+    <color name="text_gray">#727272</color>
+    <color name="icon_blue">#03adfa</color>
+    <color name="icon_orange">#feb532</color>
+    <color name="tab_main_bg_gray">#f0f0f0</color>
+    <color name="bg_personal_info_black">#566578</color>
+    <color name="bg_button_course_pay_blue">#51acff</color>
+    <color name="line_button_course_pay_blue">#3998ea</color>
+    <color name="container_course_info_gray">#9fa4a8</color>
+    
+</resources>

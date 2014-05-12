@@ -1,0 +1,169 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.microlearning.option.ProfileActivity"
+    tools:ignore="MergeRootFrame"
+    >
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin" >
+	
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	         >
+	
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:gravity="center_vertical"
+	            android:text="头像" />
+	
+	        <ImageView
+	            android:id="@+id/imageView1"
+	            android:layout_width="48dp"
+	            android:layout_height="48dp"
+	            android:layout_alignParentRight="true"
+	            android:background="@color/tab_main_bg_gray" />
+	
+	    </RelativeLayout>
+	
+	   <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:gravity="center_vertical" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="名字"
+	            />
+	        
+	        <EditText
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="8dp"
+	            android:hint="名字" />
+	
+	    </LinearLayout>
+	    
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:gravity="center_vertical" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="公司"
+	            />
+	        
+	        <EditText
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="8dp"
+	            android:hint="公司" />
+	
+	    </LinearLayout>
+	    
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:gravity="center_vertical" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="行业"
+	            />
+	        
+	        <EditText
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="8dp"
+	            android:hint="行业" />
+	
+	    </LinearLayout>
+		
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:gravity="center_vertical" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="性别"
+	            />
+	        
+	        <EditText
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="8dp"
+	            android:hint="性别" />
+	
+	    </LinearLayout>
+		
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:gravity="center_vertical" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="职位"
+	            />
+	        
+	        <EditText
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="8dp"
+	            android:hint="职位" />
+	
+	    </LinearLayout>
+		
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:gravity="center_vertical" >
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="自我介绍"
+	            />
+	        
+	        <EditText
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="8dp"
+	            android:hint="自我介绍" />
+	
+	    </LinearLayout>
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="48dp"
+			android:gravity="center_vertical"
+			android:text="我擅长的技能"
+			/>
+	
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="48dp"
+			android:gravity="center_vertical"
+			android:text="我关注的技能"
+			/>
+		
+	</LinearLayout>
+    
+</ScrollView>

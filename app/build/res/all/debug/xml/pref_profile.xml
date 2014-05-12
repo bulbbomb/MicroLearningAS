@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference android:title="@string/pref_title_profile_setting" >
+        <intent android:action="prefs.EDIT_PROFILE"
+            android:targetPackage="com.example.microlearning"
+            android:targetClass="com.example.microlearning.option.ProfileActivity"
+            />
+    </Preference>
+    
+    <Preference android:title="@string/pref_title_log_out"
+        android:key="log_out"
+        />
+    
+</PreferenceScreen>
+<!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/xml/pref_profile.xml -->

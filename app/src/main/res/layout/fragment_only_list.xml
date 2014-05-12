@@ -1,0 +1,14 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listview_fragment_only_list"
+    android:background="@color/white"
+    tools:context="com.example.microlearning.learning.LearnAFragment" >
+
+<!--     <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        /> -->
+
+</ListView>

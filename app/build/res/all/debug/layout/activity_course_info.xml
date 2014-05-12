@@ -1,0 +1,247 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.microlearning.learning.CourseActivity"
+>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_above="@+id/container_pay"
+		android:orientation="vertical"
+        >
+        
+        <LinearLayout 
+        	android:id="@+id/container_course_info"
+        	android:layout_width="match_parent"
+        	android:layout_height="64dp"
+        	android:orientation="horizontal"
+        	android:padding="8dp"
+        	android:background="@color/container_course_info_gray"
+        	>
+            
+            <RelativeLayout 
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                ></RelativeLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical"
+                >
+                
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="如何保养皮肤"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    />
+                
+                <LinearLayout 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    >
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="2013/3/2发布"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        />
+                    
+                    <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:text="6887人学过"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        />
+                    
+                </LinearLayout>
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+    
+    	<VideoView 
+    	    android:id="@+id/videoview"
+        	android:layout_width="match_parent"
+        	android:layout_height="240dp"
+        	/>
+        
+    	<LinearLayout 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="48dp"
+    	    android:paddingLeft="8dp"
+    	    android:paddingRight="8dp"
+    	    >
+    	    
+    	    <TextView 
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="match_parent"
+    	        android:text="美妆技巧"
+    	        android:textColor="@color/text_gray"
+    	        android:gravity="center"
+    	        android:layout_marginLeft="4dp"
+    	        android:layout_marginRight="4dp"
+    	        android:drawableLeft="@drawable/label"
+    	        />
+      	    
+    	    <TextView 
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="match_parent"
+    	        android:text="上海交通大学"
+    	        android:textColor="@color/text_gray"
+    	        android:gravity="center"
+    	        android:layout_marginLeft="4dp"
+    	        android:layout_marginRight="4dp"
+    	        android:drawableLeft="@drawable/location"
+    	        />
+    	    
+    	</LinearLayout>
+    	
+    	<RelativeLayout 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="48dp"
+    	    >
+    	    
+    	    <SeekBar
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_centerVertical="true"
+    	        android:layout_toLeftOf="@+id/button_full_screen"
+    	        />
+    	    
+    	    <ImageButton 
+    	        android:id="@+id/button_full_screen"
+    	        android:layout_width="48dp"
+    	        android:layout_height="match_parent"
+    	        android:layout_alignParentRight="true"
+    	        android:src="@drawable/av_full_screen"
+    	        android:background="@android:color/transparent"
+    	        />
+    	    
+    	</RelativeLayout>
+    	
+    	<LinearLayout 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="48dp"
+    	    >
+    	    
+    	    <Button 
+    	        android:id="@+id/button_load"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="match_parent"
+    	        android:text="load"
+    	        />
+    	    
+    	    <Button 
+    	        android:id="@+id/button_play"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="match_parent"
+    	        android:text="play"
+    	        />
+    	    
+    	    <Button 
+    	        android:id="@+id/button_pause"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="match_parent"
+    	        android:text="pause"
+    	        />
+    	    
+    	</LinearLayout>
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/container_pay"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/bg_button_course_pay_blue"
+        android:gravity="center_vertical"
+        >
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            >
+    	    
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="去支付" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:text="（支付后即可观看）" />
+            
+        </LinearLayout>
+        
+        <View 
+            android:background="@color/line_button_course_pay_blue"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            />
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:text="￥"
+                />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="30"
+                />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:text="元"
+                />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+</RelativeLayout>
+
+<!-- From: file:/D:/workspace/MicroLearningAS/app/src/main/res/layout/activity_course_info.xml -->

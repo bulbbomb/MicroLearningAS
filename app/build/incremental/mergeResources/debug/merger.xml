@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\workspace\MicroLearningAS\app\src\main\res" >
+            <file
+                name="slide_in_left"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\anim\slide_in_left.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_in_right"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\anim\slide_in_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_out_left"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\anim\slide_out_left.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_out_right"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\anim\slide_out_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="tab_selector"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\color\tab_selector.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="tab_bg_selected"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_bg_selected.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_bg_selector"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_bg_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_bg_unselected"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_bg_unselected.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_learn_layer_btn"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_learn_layer_btn.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_learn_layer_btn_tap"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_learn_layer_btn_tap.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_learn_selector"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_learn_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_option_layer_btn"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_option_layer_btn.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_option_layer_btn_tap"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_option_layer_btn_tap.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_option_selector"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_option_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_teach_layer_btn"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_teach_layer_btn.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_teach_layer_btn_tap"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_teach_layer_btn_tap.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tab_teach_selector"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable\tab_teach_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="access_switch_video"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\access_switch_video.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="access_video"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\access_video.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="av_full_screen"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\av_full_screen.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="av_upload"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\av_upload.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="calendar_white"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\calendar_white.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_content_discard"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\ic_content_discard.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="label"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\label.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="learn"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\learn.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="location"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\location.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="new_label"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\new_label.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_bg"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\tab_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_learn"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\tab_learn.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_option"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\tab_option.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_teach"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\tab_teach.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="teach"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-hdpi\teach.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="av_full_screen"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-mdpi\av_full_screen.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="av_full_screen"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-xhdpi\av_full_screen.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_course_info"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\activity_course_info.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_login"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\activity_login.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_new_course"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\activity_new_course.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_personal_info"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\activity_personal_info.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_profile"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\activity_profile.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_course_info"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_course_info.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_demo"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_demo.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_main"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_new_course"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_new_course.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_only_list"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_only_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_option"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_option.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_tabs_top"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_tabs_top.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_teach"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_teach.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_teach_a"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_teach_a.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_teach_b"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\fragment_teach_b.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_personal_info"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\item_personal_info.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="listview_learn_a"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\listview_learn_a.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="listview_learn_b"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\listview_learn_b.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="listview_learn_c"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\listview_learn_c.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="listview_option"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\listview_option.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="not_used_fragment_learn"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\not_used_fragment_learn.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="tabs_icon"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\tabs_icon.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="tabs_text"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\layout\tabs_text.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="context_menu"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\menu\context_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="course_info"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\menu\course_info.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="learn"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\menu\learn.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="login"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\menu\login.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="new_course"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\menu\new_course.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="personal_info"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\menu\personal_info.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="profile"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\menu\profile.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="teach"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\menu\teach.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values\colors.xml"
+                qualifiers="" >
+                <color name="icon_orange" >#feb532
+                </color>
+                <color name="tab_main_bg_gray" >#f0f0f0
+                </color>
+                <color name="action_active_green" >#56be6f
+                </color>
+                <color name="container_course_info_gray" >#9fa4a8
+                </color>
+                <color name="white" >#ffffff
+                </color>
+                <color name="action_inactive_gray" >#676968
+                </color>
+                <color name="line_button_course_pay_blue" >#3998ea
+                </color>
+                <color name="dark_green" >#119667
+                </color>
+                <color name="bg_personal_info_black" >#566578
+                </color>
+                <color name="bg_button_course_pay_blue" >#51acff
+                </color>
+                <color name="text_gray" >#727272
+                </color>
+                <color name="text_black" >#3f4346
+                </color>
+                <color name="tab_learn_bg_white" >#f0f4f5
+                </color>
+                <color name="icon_blue" >#03adfa
+                </color>
+            </file>
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="hello_blank_fragment" >Hello blank fragment
+                </string>
+                <string name="tab_option" >我
+                </string>
+                <string name="title_activity_profile" >ProfileActivity
+                </string>
+                <string name="title_activity_new_course" >NewCourseActivity
+                </string>
+                <string name="tab_learn_c" >我学过的
+                </string>
+                <string name="title_activity_teach" >TeachActivity
+                </string>
+                <string name="title_activity_setting" >SettingActivity
+                </string>
+                <string name="title_activity_learn" >LearnActivity
+                </string>
+                <string name="tab_course_type_b" >一对一
+                </string>
+                <string name="tab_teach" >教
+                </string>
+                <string name="tab_course_type_a" >视频
+                </string>
+                <string name="title_activity_personal_info" >PersonalInfoActivity
+                </string>
+                <string name="app_name" >MicroLearning
+                </string>
+                <string name="action_publish" >Publish
+                </string>
+                <string name="tab_learn_a" >热门推荐
+                </string>
+                <string name="delete" >Delete
+                </string>
+                <string name="tab_learn_b" >达人推荐
+                </string>
+                <string name="tab_learn" >学
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="title_activity_course_info" >CourseInfoActivity
+                </string>
+            </file>
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values\strings_activity_login.xml"
+                qualifiers="" >
+                <string name="error_field_required" >This field is required
+                </string>
+                <string name="error_invalid_email" >This email address is invalid
+                </string>
+                <string name="prompt_email" >Email
+                </string>
+                <string name="action_sign_in_register" ><b>
+Sign in
+                    </b> or register
+                </string>
+                <string name="login_progress_signing_in" >Signing in…
+                </string>
+                <string name="prompt_password" >Password
+                </string>
+                <string name="action_sign_in_short" >Sign in
+                </string>
+                <string name="error_incorrect_password" >This password is incorrect
+                </string>
+                <string name="title_activity_login" >Sign in
+                </string>
+                <string name="action_forgot_password" >Recover lost password
+                </string>
+                <string name="error_invalid_password" >This password is too short
+                </string>
+            </file>
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values\strings_activity_settings.xml"
+                qualifiers="" >
+                <string name="pref_header_about" >关于
+                </string>
+                <string name="title_activity_settings" >Settings
+                </string>
+                <string name="pref_ringtone_silent" >无
+                </string>
+
+                <string-array name="pref_example_list_values" >
+                    <item>
+1
+                    </item>
+                    <item>
+0
+                    </item>
+                    <item>
+-1
+                    </item>
+                </string-array>
+
+                <string name="pref_title_display_name" >Display name
+                </string>
+                <string name="pref_title_contact_us" >意见反馈
+                </string>
+                <string name="pref_description_social_recommendations" >Recommendations for people to contact based on your message history
+                </string>
+                <string name="pref_header_general" >General
+                </string>
+                <string name="pref_title_add_friends_to_messages" >Add friends to messages
+                </string>
+                <string name="pref_default_display_name" >John Smith
+                </string>
+
+                <string-array name="pref_example_list_titles" >
+                    <item>
+Always
+                    </item>
+                    <item>
+When possible
+                    </item>
+                    <item>
+Never
+                    </item>
+                </string-array>
+
+                <string name="pref_title_clean_cache" >清除缓存
+                </string>
+                <string name="pref_description_clean_cache" >清除所有缓存的图像和视频
+                </string>
+                <string name="pref_title_new_message_notifications" >接收消息通知
+                </string>
+                <string name="pref_title_vibrate" >振动
+                </string>
+                <string name="pref_title_ringtone" >通知提示音
+                </string>
+                <string name="pref_title_social_recommendations" >Enable social recommendations
+                </string>
+                <string name="pref_title_log_out" >退出登录
+                </string>
+                <string name="pref_header_notifications" >通知
+                </string>
+                <string name="pref_title_about_us" >关于我们
+                </string>
+                <string name="pref_title_only_watch_video_by_wifi" >仅在Wi-Fi下播放视频
+                </string>
+                <string name="pref_header_data_sync" >数据 &amp; 存储
+                </string>
+                <string name="pref_title_profile_setting" >编辑个人信息
+                </string>
+            </file>
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style name="LoginFormContainer" >
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:padding">
+16dp
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values-large\styles.xml"
+                qualifiers="large" >
+
+                <style name="LoginFormContainer" >
+                    <item name="android:layout_width">
+400dp
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_gravity">
+center
+                    </item>
+                    <item name="android:padding">
+16dp
+                    </item>
+                </style>
+            </file>
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="D:\workspace\MicroLearningAS\app\src\main\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="pref_about"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\xml\pref_about.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_data_sync"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\xml\pref_data_sync.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_general"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\xml\pref_general.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_headers"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\xml\pref_headers.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_notification"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\xml\pref_notification.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_profile"
+                path="D:\workspace\MicroLearningAS\app\src\main\res\xml\pref_profile.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="D:\workspace\MicroLearningAS\app\build\res\rs\debug" />
+        <source path="D:\workspace\MicroLearningAS\app\build\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\workspace\MicroLearningAS\app\src\debug\res" />
+    </dataSet>
+
+</merger>
